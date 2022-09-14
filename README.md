@@ -1,1 +1,1 @@
-# gitar_mentor
+music school teacher landing page
