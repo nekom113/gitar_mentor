@@ -891,10 +891,12 @@ max-width: 350px;
 }
 .right-wrapper__text{
   margin-left: 10px;
+  padding-left: 30px;
 }
 .right-wrapper__title{
   margin-top: 20px;
   margin-left: 10px;
+  padding-left: 30px;
 }
 .right-wrapper__icons-box{
   margin-top: 20px;
