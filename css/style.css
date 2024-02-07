@@ -5,7 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-html {
+ html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -526,6 +526,7 @@ html {
   position: relative;
   font-weight: bold;
 }
+
 .title__hr {
   width: 65px;
   position: absolute;
@@ -804,9 +805,12 @@ html {
     width: 540px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 750px) {
   .container {
-    width: 390px;
+    width: 360px;
+  }
+  .title {
+    font-size: 38px;
   }
   .nav-menu__list-item {
     margin-right: 14px;
@@ -825,4 +829,74 @@ html {
   .right-wrapper__rectangle-orange {
     top: 145px;
   }
+  .second-section__cards-box {
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.icons-item__img {
+  margin-right: 10px;
+  width: 80px;
+}
+
+.second-section__icons-box {
+  flex-wrap: wrap;
+}
+.second-section__icons-item{
+  margin-bottom: 20px
+}
+.second-section__cards-item {
+  margin-right: 0px;
+}
+.third-section__right-wrapper {
+  max-width: 380px;
+}
+.third-section__container {
+  flex-direction: column;
+}
+.third-section__left-title{
+  z-index: 2;
+  border-bottom: black 1px solid;
+  margin-bottom:10px;
+}
+.third-section__right-title{
+  font-size: 28px;
+  max-width: 100%;
+  color:rgba(39, 39, 39, 0.85);
+  z-index:3;
+}
+.title__hr{
+  display: none;
+}
+.footer{
+  display: none;
+}
+.title__hr_top-br{
+  display:none;
+}
+.third-section__text {
+max-width: 350px;
+}
+.right-wrapper__button{
+/* flex-direction: column; */
+}
+.second-section__container{
+  overflow: hidden;
+}
+.main-section{
+  overflow: hidden;
+}
+.right-wrapper__icon-btn{
+  margin-top: 10px;
+}
+.right-wrapper__text{
+  margin-left: 10px;
+}
+.right-wrapper__title{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.right-wrapper__icons-box{
+  margin-top: 20px;
+}
 }/*# sourceMappingURL=style.css.map */
